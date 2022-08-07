@@ -11,5 +11,5 @@ class Author(val firstName: String, val lastName: String, val middleName: String
 
     @Id
     @GeneratedValue
-    var id: Long = TODO("initialize me")
+    var id: Long = +1
 }
