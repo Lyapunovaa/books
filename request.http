@@ -1,0 +1,10 @@
+POST http://localhost:8080/
+Content-Type: application/json
+{
+  "name": "Hello!",
+  "author": "Poshjin"
+}
+###
+GET http://localhost:8080/
+
+
