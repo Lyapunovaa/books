@@ -1,8 +1,9 @@
 package com.example.books.entities
 
-import javax.persistence.*
+import org.springframework.data.annotation.Id
+import org.springframework.data.relational.core.mapping.Table
 
-@Entity
+@Table("book")
 data class Book(
 
     val name: String,
@@ -10,7 +11,5 @@ data class Book(
     val year: Int,
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
-    val id: Int?=null,
+    val id: Int? = null,
 )

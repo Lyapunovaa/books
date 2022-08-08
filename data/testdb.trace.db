@@ -1,0 +1,12 @@
+2022-08-08 19:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+CREATE TABLE book ( id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255), author VARCHAR(255), "year" INT NOT NULL, CONSTRAINT pk_book PRIMARY KEY (id) ) [42101-214]
+2022-08-08 19:48:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+CREATE TABLE book ( id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255), author VARCHAR(255), "year" INT NOT NULL, CONSTRAINT pk_book PRIMARY KEY (id) ) [42101-214]
+2022-08-08 19:49:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+CREATE TABLE book ( id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255), author VARCHAR(255), "year" INT NOT NULL, CONSTRAINT pk_book PRIMARY KEY (id) ) [42101-214]
+2022-08-08 19:49:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" already exists; SQL statement:
+CREATE TABLE book ( id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255), author VARCHAR(255), "year" INT NOT NULL, CONSTRAINT pk_book PRIMARY KEY (id) ) [42101-214]
