@@ -17,7 +17,7 @@ class LoadDatabase {
     @Bean
     fun initDatabase(repository: BookRepository): CommandLineRunner? {
         return CommandLineRunner { args: Array<String?>? ->
-            log.info("Preloading " + repository.save(Book("Bilbo Baggins", "Barguzin", 2012)))
+            repository.save(Book("Bilbo Baggins", "Barguzin", 2012))
             //  log.info("Preloading " + repository.save(Book("Frodo Baggins", "thief", 2001, 2)))
         }
     }

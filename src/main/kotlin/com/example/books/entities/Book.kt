@@ -1,9 +1,6 @@
 package com.example.books.entities
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.GenerationType
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 data class Book(
@@ -14,5 +11,6 @@ data class Book(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Long = -1
+    @Column(name = "id", nullable = false)
+    val id: Int?=null,
 )
