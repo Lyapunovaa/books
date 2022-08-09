@@ -1,5 +1,72 @@
 GET http://localhost:8080
 
+<> 2022-08-09T192819.200.json
+
+###
+
+GET http://localhost:8080
+
+<> 2022-08-09T192611.200.json
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "name": "Hello!",
+  "author": "Poshjin"
+}
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+{:
+  "name": "Hello!",
+  "author": "Poshjin"
+}:
+
+<> 2022-08-09T192317.400.html
+
+###
+
+GET http://localhost:8080
+
+<> 2022-08-09T192251.200.json
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+{:
+  "name": "Hello!",
+  "author": "Poshjin"
+}:
+
+<> 2022-08-09T192237.400.html
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+{:
+  "name": "Hello!",
+  "author": "Poshjin"
+}:
+
+<> 2022-08-09T192120.400.html
+
+###
+
+GET http://localhost:8080
+
+<> 2022-08-09T192114.200.json
+
+###
+
+GET http://localhost:8080
+
 <> 2022-08-08T210438.200.json
 
 ###
