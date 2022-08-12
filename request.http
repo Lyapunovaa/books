@@ -2,10 +2,25 @@ POST http://localhost:8080/
 Content-Type: application/json
 
 {
-  "name": "Hello!",
-  "author": "Poshjin"
+  "name": "asdfasd!",
+  "author": "Poshjasfdasdin"
 }
 ###
 GET http://localhost:8080/
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasdf!",
+  "lastName": "qwerqwe",
+  "middleName": "12234",
+  "isAlive": true
+}
+###
+
+GET http://localhost:8080/author/55
 
 

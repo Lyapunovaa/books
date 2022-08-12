@@ -1,15 +1,20 @@
 package com.example.books.entities
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import org.springframework.data.annotation.Id
+import org.springframework.data.relational.core.mapping.Column
+import org.springframework.data.relational.core.mapping.Table
 
-@Entity
-class Author(val firstName: String, val lastName: String, val middleName: String) {
-   
+
+@Table("AUTHOR")
+data class Author(
+
+
+    val firstName: String,
+    val lastName: String,
+    val middleName: String,
+    val isAlive: Boolean,
 
 
     @Id
-    @GeneratedValue
-    var id: Long = +1
-}
+    val id: Int? = null
+)

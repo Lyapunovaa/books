@@ -8,8 +8,7 @@ data class Book(
 
     val name: String,
     val author: String,
-   // val year: Int,
 
     @Id
-    val id: Int? = null,
+    val id: Int? = null
 )

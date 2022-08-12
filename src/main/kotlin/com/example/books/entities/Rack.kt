@@ -1,12 +1,12 @@
 package com.example.books.entities
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import org.springframework.data.annotation.Id
+import org.springframework.data.relational.core.mapping.Table
 
-@Entity
-class Rack {
+@Table("RACK")
+data class Rack(
+
+
     @Id
-    @GeneratedValue
-    var id: Long = +1
-}
+    val id: Int? = null
+)

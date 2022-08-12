@@ -1,3 +1,135 @@
+GET http://localhost:8080/author/55
+
+<> 2022-08-12T211003.200.json
+
+###
+
+GET http://localhost:8080/author/5
+
+<> 2022-08-12T210959.200.json
+
+###
+
+GET http://localhost:8080/author/4
+
+<> 2022-08-12T210955.200.json
+
+###
+
+GET http://localhost:8080/author/3
+
+<> 2022-08-12T210953.200.json
+
+###
+
+GET http://localhost:8080/author/2
+
+<> 2022-08-12T210948.200.json
+
+###
+
+GET http://localhost:8080/author/1
+
+<> 2022-08-12T210944.200.json
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasdf!",
+  "lastName": "qwerqwe",
+  "middleName": "12234",
+  "isAlive": true
+}
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasdf!",
+  "lastName": "qwerqwe",
+  "middleName": "12234",
+  "isAlive": true
+}
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasdf!",
+  "lastName": "qwerqwe",
+  "middleName": "12234",
+  "isAlive": true
+}
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasdf!",
+  "lastName": "qwerqwe",
+  "middleName": "12234",
+  "isAlive": true
+}
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "firstName": "asdfasd!",
+  "lastName": "Poshjasfdasdin",
+  "middleName": "Poshjasfdasdin",
+  "isAlive": true
+}
+
+###
+
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "first_name": "asdfasd!",
+  "last_name": "Poshjasfdasdin",
+  "middle_name": "Poshjasfdasdin",
+  "is_alive": true
+}
+
+<> 2022-08-12T210753.400.json
+
+###
+
+GET http://localhost:8080
+
+<> 2022-08-12T203551.200.json
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "name": "asdfasd!",
+  "author": "Poshjasfdasdin"
+}
+
+###
+
+GET http://localhost:8080
+
+<> 2022-08-12T203539.200.json
+
+###
+
 GET http://localhost:8080
 
 <> 2022-08-09T192819.200.json

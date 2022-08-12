@@ -5,3 +5,13 @@ CREATE TABLE IF NOT EXISTS BOOK
     author VARCHAR(255),
     CONSTRAINT pk_book PRIMARY KEY (id)
 );
+CREATE TABLE IF NOT EXISTS author
+(
+    id          INT AUTO_INCREMENT NOT NULL,
+    first_name  VARCHAR(255),
+    last_name   VARCHAR(255),
+    middle_name VARCHAR(255),
+    is_alive    BOOLEAN NOT NULL,
+
+    CONSTRAINT pk_author PRIMARY KEY (id)
+);
