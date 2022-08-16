@@ -1,9 +1,7 @@
 package com.example.books.service
 
 import com.example.books.entities.Author
-import com.example.books.entities.Book
 import com.example.books.interfaces.AuthorRepository
-import com.example.books.interfaces.BookRepository
 import org.springframework.stereotype.Service
 import java.util.*
 

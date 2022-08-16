@@ -23,4 +23,15 @@ Content-Type: application/json
 
 GET http://localhost:8080/author/55
 
+###
+
+POST http://localhost:8080/cabinet
+Content-Type: application/json
+
+{
+  "numOfRack": 12
+}
+###
+
+GET http://localhost:8080/cabinet/all
 

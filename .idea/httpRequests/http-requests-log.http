@@ -1,3 +1,48 @@
+GET http://localhost:8080/cabinet/all
+
+<> 2022-08-16T210500.200.json
+
+###
+
+POST http://localhost:8080/cabinet
+Content-Type: application/json
+
+{
+  "numOfRack": 12
+}
+
+###
+
+GET http://localhost:8080/cabinet/all
+
+<> 2022-08-16T210456.200.json
+
+###
+
+POST http://localhost:8080/cabinet
+Content-Type: application/json
+
+{
+  "numOfRack": 25
+}
+
+###
+
+GET http://localhost:8080/cabinet/all
+
+<> 2022-08-16T210445.200.json
+
+###
+
+POST http://localhost:8080/cabinet
+Content-Type: application/json
+
+{
+  "asdf": 25
+}
+
+###
+
 GET http://localhost:8080/author/55
 
 <> 2022-08-12T211003.200.json

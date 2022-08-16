@@ -5,7 +5,9 @@ import org.springframework.data.relational.core.mapping.Table
 
 
 @Table("CABINET")
-class Cabinet(
+data class Cabinet(
+
+    val numOfRack: Int,
 
     @Id
     val id: Int? = null

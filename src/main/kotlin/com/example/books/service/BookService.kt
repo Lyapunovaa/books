@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service
 @Service
 class BookService(val db: BookRepository) {
 
-    fun findBook(): List<Book> = db.findBook()
+    fun getAllBooks(): List<Book> = db.getAllBooks()
 
     fun post(book: Book) {
         db.save(book)

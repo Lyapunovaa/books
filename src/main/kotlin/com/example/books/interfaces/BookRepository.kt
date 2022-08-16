@@ -8,5 +8,5 @@ import org.springframework.data.jdbc.repository.query.Query
 interface BookRepository : CrudRepository<Book, Long> {
 
     @Query("SELECT * FROM book")
-    fun findBook(): List<Book>
+    fun getAllBooks(): List<Book>
 }
