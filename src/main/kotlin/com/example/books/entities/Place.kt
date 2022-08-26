@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.relational.core.mapping.Table
 
 @Table("PLACE")
-data class Place (
+data class Place(
 
 
     @Id

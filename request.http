@@ -6,7 +6,7 @@ Content-Type: application/json
   "author": "Poshjasfdasdin"
 }
 ###
-GET http://localhost:8080/
+GET http://localhost:8080/book/all
 
 ###
 

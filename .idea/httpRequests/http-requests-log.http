@@ -1,3 +1,9 @@
+GET http://localhost:8080/book/all
+
+<> 2022-08-26T191641.200.json
+
+###
+
 GET http://localhost:8080/cabinet/all
 
 <> 2022-08-16T210500.200.json

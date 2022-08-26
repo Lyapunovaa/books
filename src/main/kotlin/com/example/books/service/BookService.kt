@@ -8,8 +8,9 @@ import org.springframework.stereotype.Service
 class BookService(val db: BookRepository) {
 
     fun getAllBooks(): List<Book> = db.getAllBooks()
+    fun getAll(): MutableIterable<Book> = db.findAll()
 
-    fun post(book: Book) {
+    fun createBook(book: Book) {
         db.save(book)
     }
 

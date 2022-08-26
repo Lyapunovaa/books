@@ -8,9 +8,11 @@ import java.util.*
 @Service
 class AuthorService(val db: AuthorRepository) {
 
-    fun getAuthorById(id:Long): Optional<Author> = db.findById(id)
+    fun getAuthorById(id: Long): Optional<Author> = db.findById(id)
 
-    fun post(author: Author) {
+    fun getAllAuthors(): MutableIterable<Author> = db.findAll()
+
+    fun createAuthor(author: Author) {
         db.save(author)
     }
 

@@ -12,7 +12,7 @@ class CabinetService(val db: CabinetRepository) {
 
     fun getAllCabinet(): MutableIterable<Cabinet> = db.findAll()
 
-    fun post(cabinet: Cabinet) {
+    fun createCabinet(cabinet: Cabinet) {
         db.save(cabinet)
     }
 }

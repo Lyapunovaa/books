@@ -8,10 +8,14 @@ import java.util.*
 @RestController
 class AuthorResource(val service: AuthorService) {
     @GetMapping(value = ["/author/{id}"])
-    fun index(@PathVariable id: Long): Optional<Author> = service.getAuthorById(id)
+    fun getAuthorById(@PathVariable id: Long): Optional<Author> = service.getAuthorById(id)
+
+    @GetMapping(value = ["/author/all"])
+    fun getAllAuthors(): MutableIterable<Author> = service.getAllAuthors()
+
 
     @PostMapping(value = ["/author"])
-    fun post(@RequestBody author: Author) {
-        service.post(author)
+    fun createAuthor(@RequestBody author: Author) {
+        service.createAuthor(author)
     }
 }
