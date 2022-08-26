@@ -1,9 +1,7 @@
 package com.example.books.service
 
-import com.example.books.entities.Book
 import com.example.books.entities.Cabinet
 import com.example.books.interfaces.CabinetRepository
-import org.springframework.data.jpa.domain.AbstractPersistable_.id
 import org.springframework.stereotype.Service
 import java.util.*
 
