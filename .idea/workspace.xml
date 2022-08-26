@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e120f99-769f-4edf-a489-265d5e0929ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/PlaceController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/RackController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/interfaces/PlaceRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/interfaces/RackRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/PlaceService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/RackService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205027.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205104.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205254.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205315.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205338.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205439.500.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/sql/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/testdb.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/request.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/BookController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/BookController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/BookService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/BookService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Place.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Place.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Rack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Rack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -125,19 +139,19 @@
   }
 }</component>
   <component name="RunManager" selected="Spring Boot.BooksApplication">
-    <configuration name="request | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="request | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="10" requestIdentifier="#10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="3" requestIdentifier="#3" runType="Run single request">
+    <configuration name="request | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="11" requestIdentifier="#11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="4" requestIdentifier="#4" runType="Run single request">
+    <configuration name="request | #12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="12" requestIdentifier="#12" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="5" requestIdentifier="#5" runType="Run single request">
+    <configuration name="request | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="8" requestIdentifier="#8" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="6" requestIdentifier="#6" runType="Run single request">
+    <configuration name="request | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/request.http" index="9" requestIdentifier="#9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="BooksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -149,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.request | #2" />
-        <item itemvalue="HTTP Request.request | #6" />
-        <item itemvalue="HTTP Request.request | #5" />
-        <item itemvalue="HTTP Request.request | #4" />
-        <item itemvalue="HTTP Request.request | #3" />
+        <item itemvalue="HTTP Request.request | #12" />
+        <item itemvalue="HTTP Request.request | #11" />
+        <item itemvalue="HTTP Request.request | #10" />
+        <item itemvalue="HTTP Request.request | #8" />
+        <item itemvalue="HTTP Request.request | #9" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +195,7 @@
       <workItem from="1660324933607" duration="3023000" />
       <workItem from="1660582009084" duration="2167000" />
       <workItem from="1660671762097" duration="1736000" />
-      <workItem from="1661530186694" duration="560000" />
+      <workItem from="1661530186694" duration="3211000" />
     </task>
     <servers />
   </component>

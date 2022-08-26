@@ -1,3 +1,72 @@
+GET http://localhost:8080/Place/all
+
+<> 2022-08-26T201703.200.json
+
+###
+
+GET http://localhost:8080/Place/all
+
+<> 2022-08-26T201657.200.json
+
+###
+
+GET http://localhost:8080/Place/1
+
+<> 2022-08-26T201644.200.json
+
+###
+
+POST http://localhost:8080/Place
+Content-Type: application/json
+
+{
+  "isEmpty": true
+}
+
+###
+
+GET http://localhost:8080/Rack/2
+
+<> 2022-08-26T201540.200.json
+
+###
+
+GET http://localhost:8080/Rack/2
+
+<> 2022-08-26T201536.200.json
+
+###
+
+GET http://localhost:8080/Rack/1
+
+<> 2022-08-26T201532.200.json
+
+###
+
+POST http://localhost:8080/Rack
+Content-Type: application/json
+
+{
+  "numOfPlaces": 11
+}
+
+###
+
+GET http://localhost:8080/Rack/all
+
+<> 2022-08-26T201439.200.json
+
+###
+
+POST http://localhost:8080/Rack
+Content-Type: application/json
+
+{
+  "numOfPlaces": 10
+}
+
+###
+
 GET http://localhost:8080/book/all
 
 <> 2022-08-26T191641.200.json
@@ -355,86 +424,6 @@ Content-Type: application/json
 }
 
 <> 2022-08-08T205549.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "id": 0,
-  "name": "Hello!",
-  "author": "Poshjin",
-  "year": 1900
-}
-
-<> 2022-08-08T205439.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "id": 0,
-  "name": "Hello!",
-  "author": "Poshjin",
-  "year": 1900
-}
-
-<> 2022-08-08T205338.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "id": null,
-  "name": "Hello!",
-  "author": "Poshjin",
-  "year": 1900
-}
-
-<> 2022-08-08T205315.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "id": null,
-  "name": "Hello!",
-  "author": "Poshjin",
-  "year": 1900
-}
-
-<> 2022-08-08T205254.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "name": "Hello!",
-  "author": "Poshjin",
-  "year": 1900
-}
-
-<> 2022-08-08T205104.500.json
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-
-{
-  "text": "Hello!"
-}
-
-<> 2022-08-08T205027.400.json
 
 ###
 

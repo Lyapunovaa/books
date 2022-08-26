@@ -5,11 +5,11 @@ Content-Type: application/json
   "name": "asdfasd!",
   "author": "Poshjasfdasdin"
 }
+
 ###
 GET http://localhost:8080/book/all
 
 ###
-
 POST http://localhost:8080/author
 Content-Type: application/json
 
@@ -19,19 +19,47 @@ Content-Type: application/json
   "middleName": "12234",
   "isAlive": true
 }
-###
 
+###
 GET http://localhost:8080/author/55
 
 ###
-
 POST http://localhost:8080/cabinet
 Content-Type: application/json
 
 {
   "numOfRack": 12
 }
-###
 
+###
 GET http://localhost:8080/cabinet/all
 
+###
+GET http://localhost:8080/Rack/all
+
+###
+GET http://localhost:8080/Rack/2
+
+###
+POST http://localhost:8080/Rack
+Content-Type: application/json
+
+{
+  "numOfPlaces": 11
+}
+
+###
+POST http://localhost:8080/Place
+Content-Type: application/json
+
+{
+  "isEmpty": true
+}
+
+###
+GET http://localhost:8080/Place/1
+
+###
+GET http://localhost:8080/Place/all
+
+###

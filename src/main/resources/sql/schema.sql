@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS author
     first_name  VARCHAR(255),
     last_name   VARCHAR(255),
     middle_name VARCHAR(255),
-    is_alive    BOOLEAN NOT NULL,
+    is_alive    BOOLEAN            NOT NULL,
 
     CONSTRAINT pk_author PRIMARY KEY (id)
 );
@@ -19,8 +19,26 @@ CREATE TABLE IF NOT EXISTS author
 CREATE TABLE IF NOT EXISTS cabinet
 (
     id          INT AUTO_INCREMENT NOT NULL,
-    num_of_rack INT NOT NULL,
+    num_of_rack INT                NOT NULL,
 
     CONSTRAINT pk_cabinet PRIMARY KEY (id)
+
+);
+
+CREATE TABLE IF NOT EXISTS place
+(
+    id       INT AUTO_INCREMENT NOT NULL,
+    is_empty BOOL               NOT NULL,
+
+    CONSTRAINT pk_place PRIMARY KEY (id)
+
+);
+
+CREATE TABLE IF NOT EXISTS rack
+(
+    id            INT AUTO_INCREMENT NOT NULL,
+    num_of_places INT                NOT NULL,
+
+    CONSTRAINT pk_rack PRIMARY KEY (id)
 
 );
