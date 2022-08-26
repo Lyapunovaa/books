@@ -1,6 +1,5 @@
 package com.example.books.controllers
 
-import com.example.books.entities.Cabinet
 import com.example.books.entities.Rack
 import com.example.books.service.RackService
 import org.springframework.web.bind.annotation.*

@@ -176,7 +176,9 @@
     <table id="165" parent="163" name="AUTHOR"/>
     <table id="166" parent="163" name="BOOK"/>
     <table id="167" parent="163" name="CABINET"/>
-    <column id="168" parent="165" name="ID">
+    <table id="168" parent="163" name="PLACE"/>
+    <table id="169" parent="163" name="RACK"/>
+    <column id="170" parent="165" name="ID">
       <ColumnKind>generated-stored</ColumnKind>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
@@ -184,33 +186,33 @@
       <SequenceInline>1</SequenceInline>
       <SequenceSequenceIdentity>1(6)..2147483647</SequenceSequenceIdentity>
     </column>
-    <column id="169" parent="165" name="FIRST_NAME">
+    <column id="171" parent="165" name="FIRST_NAME">
       <DataType>CHARACTER VARYING(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="170" parent="165" name="LAST_NAME">
+    <column id="172" parent="165" name="LAST_NAME">
       <DataType>CHARACTER VARYING(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="171" parent="165" name="MIDDLE_NAME">
+    <column id="173" parent="165" name="MIDDLE_NAME">
       <DataType>CHARACTER VARYING(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="172" parent="165" name="IS_ALIVE">
+    <column id="174" parent="165" name="IS_ALIVE">
       <DataType>BOOLEAN|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="173" parent="165" name="PRIMARY_KEY_7">
+    <index id="175" parent="165" name="PRIMARY_KEY_7">
       <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <key id="174" parent="165" name="PK_AUTHOR">
+    <key id="176" parent="165" name="PK_AUTHOR">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="175" parent="166" name="ID">
+    <column id="177" parent="166" name="ID">
       <ColumnKind>generated-stored</ColumnKind>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
@@ -218,24 +220,24 @@
       <SequenceInline>1</SequenceInline>
       <SequenceSequenceIdentity>1(4)..2147483647</SequenceSequenceIdentity>
     </column>
-    <column id="176" parent="166" name="NAME">
+    <column id="178" parent="166" name="NAME">
       <DataType>CHARACTER VARYING(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="177" parent="166" name="AUTHOR">
+    <column id="179" parent="166" name="AUTHOR">
       <DataType>CHARACTER VARYING(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <index id="178" parent="166" name="PRIMARY_KEY_1">
+    <index id="180" parent="166" name="PRIMARY_KEY_1">
       <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <key id="179" parent="166" name="PK_BOOK">
+    <key id="181" parent="166" name="PK_BOOK">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="180" parent="167" name="ID">
+    <column id="182" parent="167" name="ID">
       <ColumnKind>generated-stored</ColumnKind>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
@@ -243,17 +245,61 @@
       <SequenceInline>1</SequenceInline>
       <SequenceSequenceIdentity>1(4)..2147483647</SequenceSequenceIdentity>
     </column>
-    <column id="181" parent="167" name="NUM_OF_RACK">
+    <column id="183" parent="167" name="NUM_OF_RACK">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="182" parent="167" name="PRIMARY_KEY_4">
+    <index id="184" parent="167" name="PRIMARY_KEY_4">
       <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <key id="183" parent="167" name="PK_CABINET">
+    <key id="185" parent="167" name="PK_CABINET">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="186" parent="168" name="ID">
+      <ColumnKind>generated-stored</ColumnKind>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceInline>1</SequenceInline>
+      <SequenceSequenceIdentity>1(2)..2147483647</SequenceSequenceIdentity>
+    </column>
+    <column id="187" parent="168" name="IS_EMPTY">
+      <DataType>BOOLEAN|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="188" parent="168" name="PRIMARY_KEY_48">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="189" parent="168" name="PK_PLACE">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="190" parent="169" name="ID">
+      <ColumnKind>generated-stored</ColumnKind>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceInline>1</SequenceInline>
+      <SequenceSequenceIdentity>1(3)..2147483647</SequenceSequenceIdentity>
+    </column>
+    <column id="191" parent="169" name="NUM_OF_PLACES">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="192" parent="169" name="PRIMARY_KEY_2">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="193" parent="169" name="PK_RACK">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>

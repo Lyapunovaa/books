@@ -11,7 +11,7 @@ class RackService(val db: RackRepository) {
 
     fun getRackById(id: Long) = db.findById(id)
 
-    fun createRack(rack:Rack) {
+    fun createRack(rack: Rack) {
         db.save(rack)
     }
 }
