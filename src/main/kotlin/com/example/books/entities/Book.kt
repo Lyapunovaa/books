@@ -5,7 +5,7 @@ import org.springframework.data.relational.core.mapping.MappedCollection
 import org.springframework.data.relational.core.mapping.Table
 import javax.persistence.ForeignKey
 
-@Table("BOOK")
+@Table("PUBLIC.BOOK")
 data class Book(
 
     val name: String,

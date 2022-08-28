@@ -14,14 +14,16 @@ POST http://localhost:8080/author
 Content-Type: application/json
 
 {
-  "firstName": "asdfasdf!",
-  "lastName": "qwerqwe",
-  "middleName": "12234",
+  "firstName": "qweqwer!",
+  "lastName": "12341",
+  "middleName": "hgfdh",
   "isAlive": true
 }
 
 ###
 GET http://localhost:8080/author/55
+###
+GET http://localhost:8080/author/all
 
 ###
 POST http://localhost:8080/cabinet
