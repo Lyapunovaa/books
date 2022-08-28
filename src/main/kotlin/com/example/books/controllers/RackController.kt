@@ -2,6 +2,7 @@ package com.example.books.controllers
 
 import com.example.books.entities.Rack
 import com.example.books.service.RackService
+import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 import java.util.*
 
@@ -16,6 +17,7 @@ class RackController(val service: RackService) {
     fun getAllRacks(): MutableIterable<Rack> = service.getAllRack()
 
     @PostMapping(value = ["/Rack"])
+    @ResponseStatus(HttpStatus.CREATED)
     fun createRack(@RequestBody rack: Rack) {
         service.createRack(rack)
     }

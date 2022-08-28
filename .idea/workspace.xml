@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e120f99-769f-4edf-a489-265d5e0929ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/PlaceController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/RackController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/interfaces/PlaceRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/interfaces/RackRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/PlaceService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/service/RackService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205027.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205104.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205254.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205315.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205338.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-08-08T205439.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/sql/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/testdb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/request.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Place.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Place.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Rack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Rack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/AuthorController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/AuthorController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/BookController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/BookController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/CabinetController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/CabinetController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/PlaceController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/PlaceController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/RackController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/controllers/RackController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/books/entities/Book.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +115,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;2e725981d4b413be3ae400c545223a3a&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -195,7 +186,8 @@
       <workItem from="1660324933607" duration="3023000" />
       <workItem from="1660582009084" duration="2167000" />
       <workItem from="1660671762097" duration="1736000" />
-      <workItem from="1661530186694" duration="3211000" />
+      <workItem from="1661530186694" duration="6044000" />
+      <workItem from="1661623192712" duration="793000" />
     </task>
     <servers />
   </component>

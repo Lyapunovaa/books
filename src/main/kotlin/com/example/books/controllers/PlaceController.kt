@@ -2,6 +2,7 @@ package com.example.books.controllers
 
 import com.example.books.entities.Place
 import com.example.books.service.PlaceService
+import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 import java.util.*
 
@@ -14,6 +15,7 @@ class PlaceController(val service: PlaceService) {
     fun getAllPlaces(): MutableIterable<Place> = service.getAllPlaces()
 
     @PostMapping(value = ["/Place"])
+    @ResponseStatus(HttpStatus.CREATED)
     fun createPlace(@RequestBody place: Place) {
         service.createPlace(place)
     }

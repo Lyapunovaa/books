@@ -2,6 +2,7 @@ package com.example.books.controllers
 
 import com.example.books.entities.Author
 import com.example.books.service.AuthorService
+import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 import java.util.*
 
@@ -15,6 +16,7 @@ class AuthorResource(val service: AuthorService) {
 
 
     @PostMapping(value = ["/author"])
+    @ResponseStatus(HttpStatus.CREATED)
     fun createAuthor(@RequestBody author: Author) {
         service.createAuthor(author)
     }
